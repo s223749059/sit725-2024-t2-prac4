@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SIT725 PassTask 4.2P</title>
+		<meta name="description" content="basic template for SIT725 Practice 4">
+    	<meta name="author" content="SitePoint">
+    	<meta property="og:title" content="SIT725 Practice 4">
+    	<meta property="og:type" content="website">
+    	<meta property="og:description" content="basic template for SIT725 Practice 4">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<nav class="black">
+			<div class="nav-wrapper navbar-size">
+				<a id="logo-container" href="https://www.deakin.edu.au/" class="brand-logo">Deakin University</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a target="_blank" href="https://www.deakin.edu.au/courses-search/unit.php?unit=SIT725">Unit SIT725 - Week4</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<main class="main-body" style="background-color: #C4A484">
+			<div class="container">
+				<div class="row">
+					<div class="col s12 center-align">
+						<h1 id="heading">Let's add your account info!</h1>
+						<p class="flow-text">This is a demo application that tries to manage, customise, display and connect our
+							social media contacts using the QR scanning technology</p>
+					</div>
+					<div class="col s12 center-align">
+						<img class="materialboxed materialboxed-image" src="images/s223749059_live_demo.jpg">
+					</div>
+					<div class="col s12 center-align">
+						<a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i>Click Me</a>
+					</div>
+				</div>
+				<div class="row" id="card-section">
+				</div>
+			</div>
+
+			<div id="modal1" class="modal modal-fixed-footer">
+				<div class="row modal-content">
+					<form class="col s12">
+						<div class="row">
+							<div class="input-field col s6">
+								<input id="title" type="text" class="validate">
+								<label for="title">title</label>
+							</div>
+							<div class="input-field col s6">
+								<input id="subTitle" type="text" class="validate">
+								<label for="subTitle">subTitle</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="path" type="text" class="validate">
+								<label for="path">path</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="description" type="text" class="validate">
+								<label for="description">description</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12 center-align">
+								<a class="waves-effect waves-light btn" id="formSubmit">submit</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+
+		<footer class="page-footer" style="background-color: #EADDCA">
+			<div class="container">
+			  <div class="row">
+				<div class="col l6 s12">
+				  <h5 class="brown-text">Project description</h5>
+				  <p class="brown-text"><b>Title: </b>Personalise our social media accounts professionally</p>
+				  <p class="brown-text"><b>Instruction video: </b><a class="brown-text" href="https://www.youtube.com/watch?v=aZeVPqRvEQ4">Let's have a look at our introduction!</a></p>
+				</div>
+		
+				<div class="col l4 offset-l2 s12">
+				  <h5 class="brown-text">Our team</h5>
+				  <ul>
+					<li><a class="brown-text">Minh Tho DUONG - <a class="brown-text" href="mailto:s223749059@deakin.edu.au">s223749059</a></a></li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+		
+			<div class="footer-copyright">
+			  <div class="container brown-text">
+			  Made by <a class="brown-text"><b>s223749059</b></a>
+			  </div>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="js/scriptMongo.js"></script>
+	</body>
+</html>
